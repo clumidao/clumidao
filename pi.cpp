@@ -16,7 +16,7 @@ cout.precision(3);         // Set the number of digits to display after the deci
         if (value == -1){
           return 0;
         }
-if (value > 0){
+if (value >= 0){
      double partial = 0;
      for (n = 0; n <= value; n=n+1)
          partial += pow(-1,n)/(2*n + 1);
