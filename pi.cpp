@@ -16,12 +16,19 @@ cout.precision(3);         // Set the number of digits to display after the deci
         if (value == -1){
           return 0;
         }
-if (value >= 0){
+if (value > 0){
      double partial = 0;
      for (n = 0; n <= value; n=n+1)
          partial += pow(-1,n)/(2*n + 1);
      double newPi = 4 * partial;
             cout << "The approximate value of pi using " << value+1 << " terms is: " << newPi <<"\n";
+          }
+if (value == 0){
+     double partial = 0;
+     for (n = 0; n <= value; n=n+1)
+         partial += pow(-1,n)/(2*n + 1);
+     double newPi = 4 * partial;
+            cout << "The approximate value of pi using " << value+1 << " term is: " << newPi <<"\n";
           }
         cout << "Enter the value of the parameter 'n' in the Leibniz formula (or -1 to quit):\n";
         cin >> value; 
