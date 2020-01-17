@@ -1,12 +1,7 @@
 
 #include <iostream>
-
 using namespace std;
-
-int main(){
-int row, col;
-#include<iostream>
-using namespace std;
+    
 int main(){
 int row, col;
 do{
