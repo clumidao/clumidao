@@ -31,7 +31,7 @@ if (value == 0){
             cout << "The approximate value of pi using " << value+1 << " term is: " << newPi <<"\n";
           }
         cout << "Enter the value of the parameter 'n' in the Leibniz formula (or -1 to quit):\n";
-        cin >> value; 
+        cin >> value ; 
     } 
   return 0;
 }
